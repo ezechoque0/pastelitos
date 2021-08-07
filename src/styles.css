@@ -9,4 +9,21 @@
     --h1: 25px;
     --h2: 21px;
     --cont: 16px;
+    }
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: var(--fondo);
+    text-align: center;
+    margin: auto;
+}
+main{
+    min-height: calc(100vh - 305px);
+}
+
+/* Para que el footer se quede pegado abajo */
+@media(max-width:767px){
+    main{
+        min-height: calc(100vh-490px);
+    }
 }

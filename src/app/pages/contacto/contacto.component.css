@@ -1,12 +1,3 @@
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: var(--fondo);
-    text-align: center;
-    margin: auto;
-}
-main{
-    min-height: calc(100vh - 305px);
-}
 .main-titulo{
     background-color: var(--blanco);
     margin: 0 0 30px;

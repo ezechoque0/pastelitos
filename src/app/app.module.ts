@@ -11,6 +11,7 @@ import { TiendaComponent } from './pages/tienda/tienda.component';
 import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { CardComponent } from './components/card/card.component';
+import { TittleComponent } from './components/tittle/tittle.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CardComponent } from './components/card/card.component';
     TiendaComponent,
     NosotrosComponent,
     ContactoComponent,
-    CardComponent
+    CardComponent,
+    TittleComponent
   ],
   imports: [
     BrowserModule,
