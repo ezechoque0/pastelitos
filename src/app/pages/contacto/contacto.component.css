@@ -1,0 +1,45 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: var(--fondo);
+    text-align: center;
+    margin: auto;
+}
+main{
+    min-height: calc(100vh - 305px);
+}
+.main-titulo{
+    background-color: var(--blanco);
+    margin: 0 0 30px;
+    padding: 15px 0;
+    justify-content: center;
+    font-size: 26px;
+}
+.contacto-contenedor{
+    background-color: var(--blanco);
+    max-width: 730px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.contacto-datos{
+    margin: auto;
+}
+.contacto-titulo{
+    margin: 15px 0; 
+    font-size: 22px;
+}
+.contacto-contenido{
+    margin: 15px 0;
+}
+@media (max-width: 767px) {
+    main{
+        min-height: calc(100vh - 490px);
+    }
+    .contacto-contenedor{
+        width: auto;
+        column-gap: 20px;
+        margin: 0 2vw 30px;
+    }
+}
